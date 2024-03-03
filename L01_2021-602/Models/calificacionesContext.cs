@@ -10,5 +10,7 @@ namespace L01_2021_602.Models
         }
 
         public DbSet<Calificaciones> calificaciones { get; set; }
+
+        //Comentario en el contexto de calificaciones para probar xdddd
     }
 }

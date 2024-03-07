@@ -22,7 +22,7 @@ namespace L01_2021_602.Controllers
         public IActionResult GetAll()
         {
             List<Calificaciones> calificaciones = (from e in _calificacionesContext.calificaciones
-                                                   select e).ToList(); ;
+                                                   select e).ToList();
             if (calificaciones.Count == 0)
             {
                 return NotFound();
